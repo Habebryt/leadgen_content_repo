@@ -1,0 +1,41 @@
+Expense Category,Unit,Cost,Cost Estimate (Monthly),Cost Estimate (Annually),Cost Unit Percent ,Overall Costing Expense,,,,,,
+,,,,,,,,,Range,Annual Taxable Income,Rate,Tax Payable Per Annum
+Salaries (Gross before Allowances),,,,,,,,,First,"?300,000.00",0.07,"?21,000.00"
+Team Lead (1),1,"?500,000.00","?500,000.00","?6,000,000.00",38.46,21.18,,,Next,"?300,000.00",0.11,"?33,000.00"
+Sales Specialist,2,"?350,000.00","?700,000.00","?8,400,000.00",53.85,29.65,,,Next,"?500,000.00",0.15,"?75,000.00"
+Sales Intern,2,"?50,000.00","?100,000.00","?1,200,000.00",7.69,4.24,,,Next,"?500,000.00",0.19,"?95,000.00"
+,,,,,,,,,Next,"?1,600,000.00",0.21,"?336,000.00"
+Total Salaries,,,"?1,300,000.00","?15,600,000.00",100.00,55.06,,,Above,"?3,200,000.00",0.24,"?768,000.00"
+,,,,,,,,,,,,
+Allowances,,,,,,,,,,,,
+Airtime & Data (1.9%) of Total Salaries Monthly,5,"?24,700.00","?123,500.00","?1,482,000.00",22.60,5.23,,,,,,
+Housing allowance (7%) of Total Salaries Monthly,3,"?91,000.00","?273,000.00","?3,276,000.00",49.95,11.56,,,,,,
+Transport (client acquisition drives),3,"?50,000.00","?150,000.00","?1,800,000.00",27.45,6.35,,,,,,
+,,,,,,,,,,,,
+Total Allowances,,,"?546,500.00","?6,558,000.00",100.00,23.15,,,,,,
+,,,,,,,,,,,,
+Marketing Costs,,,,,,,,,,,,
+"Talent Ads (LinkedIn, Facebook, Twitter)",3,"?50,000.00","?150,000.00","?1,800,000.00",47.37,6.35,,,,,,
+Recruitment events (campus hiring) (4 Events Annually),4,"?500,000.00","?500,000.00","?2,000,000.00",52.63,7.06,,,,,,
+,,,,,,,,,,,,
+Total Marketing Costs,,,"?650,000.00","?3,800,000.00",100.00,13.41,,,,,,
+,,,,,,,,,,,,
+Operational Costs,,,,2 of 4 Quarters,,,,,,,,
+Email marketing (GetResponse) (6 months),6,"?160,000.00","?160,000.00","?960,000.00",48.48,3.39,,,,,,
+CRM  (Apollo) (6 months),6,"?170,000.00","?170,000.00","?1,020,000.00",51.52,3.60,,,,,,
+,,,,,,,,,,,,
+Total Operating Budget,,,"?330,000.00","?1,980,000.00",100.00,6.99,,,,,,
+,,,,,,,,,,,,
+Miscellaneous (10% of Operating Budget),1,"?33,000.00","?33,000.00","?396,000.00",0.00,1.40,,,,,,
+,,,,,,,,,,,,
+Total Costs,,,"?2,859,500.00","?28,334,000.00",100.00,100.00,,,,,,
+,,,,,,,,,,,,
+Salaries plus Allowances,Gross before Tax,Data,House,Client Drive,Total Gross,,,,,,,
+Team Lead (1),"?500,000.00","?24,700.00","?91,000.00","?50,000.00","?665,700.00",,,,,,,
+Sales Specialist,"?350,000.00","?24,700.00","?91,000.00","?50,000.00","?515,700.00",,,,,,,
+Sales Intern,"?50,000.00","?24,700.00",0,0,"?74,700.00",,,,,,,
+,,,,,,,,,,,,
+Deductions from Total Gross,Housing,Payee(7%-24%),Pension (8%),Gross,Total Deductions,Net Salary,,,,,,
+Team Lead (1),"?91,000.00","?63,855.00","?53,256.00","?665,700.00","?208,111.00","?457,589.00",,,,,,
+Sales Specialist,"?91,000.00","?44,727.00","?41,256.00","?515,700.00","?176,983.00","?338,717.00",,,,,,
+Sales Intern,0,0,0,"?74,700.00",?0.00,"?74,700.00",,,,,,
