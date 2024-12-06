@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from time import sleep
 
-api_key = "xjkthYXAtl1uuN4AtJ2HDA"
+api_key = "Your Apollo Master API Key"
 url = "https://api.apollo.io/v1/mixed_people/search"
 
 headers = {
@@ -13,9 +13,9 @@ headers = {
 # Updated search parameters
 data = {
     "api_key": api_key,
-    "person_locations": ["Nigeria"],  # People located in Nigeria
-    "organization_locations": ["Nigeria"],  # Companies located in Nigeria
-    "titles": ["CEO", "Founder", "CEO and Founder", "Founder and CEO", "CFO", "CTO", "Co-Founder"],
+    "person_locations": ["Nigeria"],  # People located in country of your choice
+    "organization_locations": ["Nigeria"],  # Companies located in your country of choice or location
+    "titles": ["CEO", "Founder", "CEO and Founder", "Founder and CEO", "CFO", "CTO", "Co-Founder"], #Fdesired job titles.
     "organization_titles": ["Chief Executive Officer", "Chief Financial Officer", "Chief Technology Officer"],
     "page": 1,
     "per_page": 100  # Maximum allowed by Apollo
@@ -68,7 +68,7 @@ while page <= total_pages:
         break
 
 df = pd.DataFrame(all_people)
-csv_filename = "nigeria_executives_and_companies.csv"
+csv_filename = "nigeria_executives_and_companies.csv" #CSV file export
 df.to_csv(csv_filename, index=False)
 print(f"Data saved to {csv_filename}")
 print(f"Total records fetched: {len(all_people)}")

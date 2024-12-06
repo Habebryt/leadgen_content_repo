@@ -7,7 +7,7 @@ import re
 import chardet
 
 # API configuration
-api_key = "xjkthYXAtl1uuN4AtJ2HDA"
+api_key = "Your Apollo API Key" #Input your apollo master API Key
 search_url = "https://api.apollo.io/v1/mixed_people/search"
 email_unlock_url = "https://api.apollo.io/v1/people/match"
 

@@ -42,9 +42,9 @@ def create_invoice_excel(filename="invoice.xlsx"):
         ws.cell(row=14, column=col, value=header).font = Font(bold=True)
 
     items = [
-        (1, "10/08/2024", "BIDs:ITF", "Industrial Training Fund (ITF) Compliance Certificate", 1, 375000, 375000),
-        (2, "10/08/2024", "NSITF", "National Social Insurance Trust Fund (NSITF) Compliance Certificate", 1, 80000, 80000),
-        (3, "10/08/2024", "Taxes:TCC", "Tax Clearance Certificate", 1, 70000, 70000)
+        ("#", "Service Date", "Product/Service", "Description", "Qty", "Rate", "Amount"),
+        ("#", "Service Date", "Product/Service", "Description", "Qty", "Rate", "Amount"),
+        ("#", "Service Date", "Product/Service", "Description", "Qty", "Rate", "Amount")
     ]
 
     for row, item in enumerate(items, start=15):
